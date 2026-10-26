@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Диамант — стоматология экспертного класса</title>
+<meta name="description" content="Стоматология на 4 врача: лечение без боли, гарантия 5 лет, рассрочка 0%.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="bg-orb orb-1"></div><div class="bg-orb orb-2"></div>
+
+<header class="header" id="header">
+  <div class="container header-in">
+    <a href="#top" class="logo">
+      <svg viewBox="0 0 32 32" width="34" height="34" aria-hidden="true"><path d="M16 5c-3-2.4-9-1.6-9 5 0 4 1.6 6.4 2.4 10 .6 3 1.4 7 3.4 7 1.8 0 1.6-5 3.2-5s1.4 5 3.2 5c2 0 2.8-4 3.4-7 .8-3.6 2.4-6 2.4-10 0-6.6-6-7.400-9-5z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+      <span>Диамант<small>Стоматология экспертного класса</small></span>
+    </a>
+    <nav class="nav">
+      <a href="#services">Услуги</a><a href="#doctors">Врачи</a><a href="#works">Работы</a><a href="#numbers">Цифры</a><a href="#reviews">Отзывы</a><a href="#contacts">Контакты</a>
+    </nav>
+    <div class="header-right">
+      <span class="status" id="status"><i class="pulse"></i><b id="statusText">Сейчас открыто</b></span>
+      <a class="phone" href="tel: 0 (533) 99922">0 (533) 99922</a>
+      <button class="btn btn-primary" data-book>Записаться</button>
+      <button class="burger" id="burger" aria-label="Меню"><i class="fa-solid fa-bars"></i></button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero container">
+  <div class="hero-text">
+    <span class="chip" data-aos="fade-up"><i class="fa-solid fa-user-doctor"></i> Команда из 4 опытных специалистов</span>
+    <h1 data-aos="fade-up" data-aos-delay="80">Здоровая улыбка<br>без <em class="grad">боли</em> и <em class="grad">страха</em></h1>
+    <p data-aos="fade-up" data-aos-delay="160">Цифровая диагностика, 3D-планирование и бережное лечение. Каждый этап объясняем заранее, на все работы даем гарантию.</p>
+    <div class="hero-btns" data-aos="fade-up" data-aos-delay="240">
+      <button class="btn btn-primary btn-lg" data-book>Записаться на приём</button>
+      <a class="btn btn-ghost btn-lg" href="#doctors">Выбрать врача</a>
+    </div>
+  </div>
+  <div class="hero-visual" data-aos="zoom-in" data-aos-delay="200">
+    <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1000&q=80" alt="Интерьер клиники">
+    <div class="float f1"><i class="fa-solid fa-face-smile"></i><div><b data-count="15000" data-suffix="+">0</b><span>довольных пациентов</span></div></div>
+    <div class="float f2"><i class="fa-solid fa-shield-heart"></i><div><b>5 лет</b><span>гарантии на работы</span></div></div>
+  </div>
+</section>
+
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>4 врача-эксперта</span><span>100% без боли</span><span>Гарантия 5 лет</span><span>Рассрочка 0%</span><span>3D-диагностика</span>
+    <span>4 врача-эксперта</span><span>100% без боли</span><span>Гарантия 5 лет</span><span>Рассрочка 0%</span><span>3D-диагностика</span>
+  </div>
+</div>
+
+<section class="section container" id="services">
+  <div class="head" data-aos="fade-up"><h2>Услуги <em>и цены</em></h2><p>Ориентировочная стоимость. Точную сумму врач назовет после осмотра.</p></div>
+  <div class="grid g3">
+    <article class="card glow service" data-aos="fade-up"><span class="ico"><i class="fa-solid fa-tooth"></i></span><h3>Лечение кариеса</h3><p>Анестезия нового поколения и эстетичная реставрация.</p><div class="row"><b>от 3 500 ₽</b><button class="btn btn-sm reveal" data-book data-service="Лечение кариеса">Записаться</button></div></article>
+    <article class="card glow service" data-aos="fade-up" data-aos-delay="80"><span class="ico"><i class="fa-solid fa-screwdriver-wrench"></i></span><h3>Имплантация</h3><p>3D-планирование и установка за один визит.</p><div class="row"><b>от 35 000 ₽</b><button class="btn btn-sm reveal" data-book data-service="Имплантация">Записаться</button></div></article>
+    <article class="card glow service" data-aos="fade-up" data-aos-delay="160"><span class="ico"><i class="fa-solid fa-wand-magic-sparkles"></i></span><h3>Отбеливание</h3><p>Осветление эмали на 6–8 тонов без вреда зубам.</p><div class="row"><b>от 12 000 ₽</b><button class="btn btn-sm reveal" data-book data-service="Отбеливание">Записаться</button></div></article>
+    <article class="card glow service" data-aos="fade-up"><span class="ico"><i class="fa-solid fa-broom"></i></span><h3>Профессиональная чистка</h3><p>Ультразвук и Air Flow: удаляем налет и камень.</p><div class="row"><b>от 4 500 ₽</b><button class="btn btn-sm reveal" data-book data-service="Профессиональная чистка">Записаться</button></div></article>
+    <article class="card glow service" data-aos="fade-up" data-aos-delay="80"><span class="ico"><i class="fa-solid fa-teeth"></i></span><h3>Брекеты и элайнеры</h3><p>Исправление прикуса: от брекетов до прозрачных капп.</p><div class="row"><b>от 60 000 ₽</b><button class="btn btn-sm reveal" data-book data-service="Брекеты и элайнеры">Записаться</button></div></article>
+    <article class="card glow service" data-aos="fade-up" data-aos-delay="160"><span class="ico"><i class="fa-solid fa-syringe"></i></span><h3>Удаление зубов</h3><p>Простое и сложное удаление под надёжным обезболиванием.</p><div class="row"><b>от 2 500 ₽</b><button class="btn btn-sm reveal" data-book data-service="Удаление зубов">Записаться</button></div></article>
+  </div>
+</section>
+
+<section class="section container" id="doctors">
+  <div class="head" data-aos="fade-up"><h2>Врачи <em>клиники</em></h2><p>Четыре специалиста закрывают все этапы лечения: от профилактики до сложных операций.</p></div>
+  <div class="grid g4">
+    <article class="card glow doc" data-aos="fade-up"><div class="photo"><img loading="lazy" src="/img/karaman.jpg" alt="Дмитрий Караман"></div><h3>Дмитрий Иванович Караман</h3><p>Врач-стоматолог, имплантолог-ортопед</p><span class="tag">Стаж 25 лет</span><button class="btn btn-ghost btn-block" data-profile="0">Подробнее о враче</button><button class="btn btn-primary btn-block" data-book data-doctor="Алексей Громов">Записаться к &nbsp;Д.Караман</button></article>
+    <article class="card glow doc" data-aos="fade-up" data-aos-delay="80"><div class="photo"><img loading="lazy" src="/img/lipovcec.jpg" alt="Евгений Липовцев"></div><h3>Евгений Сергеевич Липовцев</h3><p>Врач-стоматолог, эстетист</p><span class="tag">Стаж 9 лет</span><button class="btn btn-ghost btn-block" data-profile="1">Подробнее о враче</button><button class="btn btn-primary btn-block" data-book data-doctor="Елена Миронова">Записаться к &nbsp;Е.Липовцеву</button></article>
+    <article class="card glow doc" data-aos="fade-up" data-aos-delay="160"><div class="photo"><img loading="lazy" src="/img/samoylenko.jpg" alt="Дмитрий Левин"></div><h3>Юрий Ильич Самойленко</h3><p>Лечащий врач</p><span class="tag">Стаж 20 лет</span><button class="btn btn-ghost btn-block" data-profile="2">Подробнее о враче</button><button class="btn btn-primary btn-block" data-book data-doctor="Дмитрий Левин">Записаться к &nbsp;Ю.Самойленко</button></article>
+    <article class="card glow doc" data-aos="fade-up" data-aos-delay="240"><div class="photo"><img loading="lazy" src="/img/artur.jpg" alt="Анна Соколова"></div><h3>Артур Анатольевич Бурносенко</h3><p>Врач-ортодонт</p><span class="tag">Стаж 25+ лет</span><button class="btn btn-ghost btn-block" data-profile="3">Подробнее о враче</button><button class="btn btn-primary btn-block" data-book data-doctor="Анна Соколова">Записаться к &nbsp;А.Бурносенко</button></article>
+  </div>
+</section>
+
+
+<section class="section container" id="works">
+  <div class="head" data-aos="fade-up"><h2>Примеры <em>работ</em></h2><p>Результаты лечения наших пациентов. Фото публикуются только с их согласия.</p></div>
+  <div class="grid g3">
+    <figure class="work" data-photos="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=700&q=80|https://images.unsplash.com/photo-1598256989800-fe5f95da9787?auto=format&fit=crop&w=700&q=80|https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=700&q=80" data-aos="zoom-in" data-aos-delay="0"><img loading="lazy" src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=700&q=80" alt="Эстетическая реставрация"><figcaption><b>Эстетическая реставрация</b><span>Е. Миронова · 2 визита</span></figcaption></figure>
+    <figure class="work" data-photos="https://images.unsplash.com/photo-1606265752439-1f18664997d7?auto=format&fit=crop&w=700&q=80|https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&w=700&q=80" data-aos="zoom-in" data-aos-delay="80"><img loading="lazy" src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=700&q=80" alt="Имплантация и коронка"><figcaption><b>Имплантация и коронка</b><span>А. Громов · 1 день</span></figcaption></figure>
+    <figure class="work" data-photos="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=700&q=80|https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=700&q=80|https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=700&q=80|https://images.unsplash.com/photo-1598256989800-fe5f95da9787?auto=format&fit=crop&w=700&q=80" data-aos="zoom-in" data-aos-delay="160"><img loading="lazy" src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&w=700&q=80" alt="Исправление прикуса"><figcaption><b>Исправление прикуса</b><span>А. Соколова · 8 месяцев</span></figcaption></figure>
+    <figure class="work" data-photos="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=700&q=80|https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=700&q=80|https://images.unsplash.com/photo-1606265752439-1f18664997d7?auto=format&fit=crop&w=700&q=80" data-aos="zoom-in" data-aos-delay="0"><img loading="lazy" src="https://images.unsplash.com/photo-1598256989800-fe5f95da9787?auto=format&fit=crop&w=700&q=80" alt="Профессиональная чистка"><figcaption><b>Профессиональная чистка</b><span>Е. Миронова · 1 час</span></figcaption></figure>
+    <figure class="work" data-photos="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&w=700&q=80|https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=700&q=80" data-aos="zoom-in" data-aos-delay="80"><img loading="lazy" src="https://images.unsplash.com/photo-1606265752439-1f18664997d7?auto=format&fit=crop&w=700&q=80" alt="Сложное удаление"><figcaption><b>Сложное удаление</b><span>Д. Левин · 40 минут</span></figcaption></figure>
+    <figure class="work" data-photos="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=700&q=80|https://images.unsplash.com/photo-1598256989800-fe5f95da9787?auto=format&fit=crop&w=700&q=80|https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=700&q=80" data-aos="zoom-in" data-aos-delay="160"><img loading="lazy" src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=700&q=80" alt="Отбеливание зубов"><figcaption><b>Отбеливание зубов</b><span>Е. Миронова · 1 визит</span></figcaption></figure>
+    </div>
+</section>
+
+<section class="section container" id="numbers">
+  <div class="stats">
+    <div class="stat" data-aos="zoom-in"><i class="fa-solid fa-face-smile"></i><b data-count="15000" data-suffix="+">0</b><span>довольных пациентов</span></div>
+    <div class="stat" data-aos="zoom-in" data-aos-delay="80"><i class="fa-solid fa-award"></i><b data-count="42" data-suffix=" года">0</b><span>суммарный опыт врачей</span></div>
+    <div class="stat" data-aos="zoom-in" data-aos-delay="160"><i class="fa-solid fa-certificate"></i><b data-count="5" data-suffix=" лет">0</b><span>гарантии на лечение</span></div>
+    <div class="stat" data-aos="zoom-in" data-aos-delay="240"><i class="fa-solid fa-percent"></i><b data-count="0" data-suffix="%">0</b><span>переплат в рассрочке</span></div>
+  </div>
+</section>
+<section class="section container" id="reviews">
+  <div class="head" data-aos="fade-up"><h2>Отзывы <em>пациентов</em></h2><p>Мы не просим «красивых» оценок — просто лечим так, чтобы возвращались.</p></div>
+  <div class="rating" data-aos="fade-up"><b>4,9</b><div><div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div><span>средняя оценка по 312 отзывам</span></div></div>
+  <div class="grid g3">
+    <article class="card glow review" data-aos="fade-up" data-aos-delay="0"><div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div><p>Боялась стоматологов с детства. Здесь вылечили зуб, и я даже не заметила, как всё закончилось. Теперь прихожу без страха.</p><div class="who"><span class="ava">М</span><div><b>Мария К.</b><small>Лечение кариеса · Е. Миронова</small></div></div></article>
+    <article class="card glow review" data-aos="fade-up" data-aos-delay="80"><div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div><p>Поставили имплант за один день. Врач подробно объяснил каждый этап и заранее назвал точную цену — без сюрпризов.</p><div class="who"><span class="ava">С</span><div><b>Сергей Н.</b><small>Имплантация · А. Громов</small></div></div></article>
+    <article class="card glow review" data-aos="fade-up" data-aos-delay="160"><div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div><p>Носила элайнеры полгода, результат превзошёл ожидания. Отдельное спасибо за рассрочку и внимательное отношение.</p><div class="who"><span class="ava">О</span><div><b>Ольга Т.</b><small>Элайнеры · А. Соколова</small></div></div></article>
+    <article class="card glow review" data-aos="fade-up" data-aos-delay="0"><div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div><p>Думал, будет тяжело, а прошло быстро и спокойно. Хирург всё рассказал заранее и потом сам позвонил проверить, как я.</p><div class="who"><span class="ava">А</span><div><b>Андрей В.</b><small>Удаление зуба мудрости · Д. Левин</small></div></div></article>
+    <article class="card glow review" data-aos="fade-up" data-aos-delay="80"><div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div><p>Эмаль посветлела на несколько тонов, чувствительности почти не было. Консультация и чистка в подарок — приятный бонус.</p><div class="who"><span class="ava">И</span><div><b>Ирина П.</b><small>Отбеливание · Е. Миронова</small></div></div></article>
+    <article class="card glow review" data-aos="fade-up" data-aos-delay="160"><div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div><p>Современное оборудование, чисто и без очередей. Записали на удобное время за пару минут.</p><div class="who"><span class="ava">П</span><div><b>Павел Д.</b><small>Профессиональная чистка · Е. Миронова</small></div></div></article>
+    </div>
+</section>
+</main>
+
+<footer class="footer" id="contacts">
+  <div class="container foot-grid">
+    <div>
+      <a href="#top" class="logo light"><span>Диамант<small>Стоматология экспертного класса</small></span></a>
+      <ul>
+        <li><i class="fa-solid fa-location-dot"></i>г. Москва, ул. Примерная, д. 10</li>
+        <li><i class="fa-solid fa-phone"></i><a href="tel:+78001234567">+7 (800) 123-45-67</a></li>
+        <li><i class="fa-regular fa-clock"></i>Пн–Сб 9:00–20:00</li>
+      </ul>
+      <div class="social"><a href="#" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a><a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a><a href="#" aria-label="VK"><i class="fa-brands fa-vk"></i></a></div>
+    </div>
+    <div class="map"><i class="fa-solid fa-map-location-dot"></i><span>Здесь будет карта</span></div>
+  </div>
+  <p class="copy">© 2026 Стоматология «Диамант». Имеются противопоказания, необходима консультация специалиста.</p>
+</footer>
+
+<div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Просмотр фото">
+  <div class="lb-bg" data-lbclose></div>
+  <button class="lb-btn lb-close" data-lbclose aria-label="Закрыть"><i class="fa-solid fa-xmark"></i></button>
+  <button class="lb-btn lb-prev" id="lbPrev" aria-label="Предыдущее фото"><i class="fa-solid fa-chevron-left"></i></button>
+  <button class="lb-btn lb-next" id="lbNext" aria-label="Следующее фото"><i class="fa-solid fa-chevron-right"></i></button>
+  <figure class="lb-fig">
+    <img id="lbImg" src="" alt="">
+    <figcaption><b id="lbTitle"></b><span id="lbSub"></span></figcaption>
+  </figure>
+  <div class="lb-count" id="lbCount"></div>
+  <div class="lb-thumbs" id="lbThumbs"></div>
+</div>
+
+<div class="modal" id="profile" aria-hidden="true">
+  <div class="modal-bg" data-pclose></div>
+  <div class="modal-box wide" role="dialog" aria-modal="true" aria-labelledby="pName">
+    <button class="modal-x" data-pclose aria-label="Закрыть"><i class="fa-solid fa-xmark"></i></button>
+    <div class="prof">
+      <div class="prof-photo"><img id="pImg" src="" alt=""></div>
+      <div class="prof-body">
+        <span class="tag" id="pExp"></span>
+        <h3 id="pName"></h3>
+        <p class="muted" id="pRole"></p>
+        <p id="pAbout" class="about"></p>
+        <div class="prof-cols">
+          <div><h4><i class="fa-solid fa-graduation-cap"></i> Образование</h4><ul id="pEdu"></ul></div>
+          <div><h4><i class="fa-solid fa-briefcase-medical"></i> Опыт работы</h4><ul id="pWork"></ul></div>
+        </div>
+        <h4><i class="fa-solid fa-stethoscope"></i> Специализация</h4><div class="chips" id="pSpec"></div>
+        <h4><i class="fa-solid fa-medal"></i> Повышение квалификации</h4><ul id="pExtra"></ul>
+        <button class="btn btn-primary btn-lg" id="pBook">Записаться на приём</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal" id="modal" aria-hidden="true">
+  <div class="modal-bg" data-close></div>
+  <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <button class="modal-x" data-close aria-label="Закрыть"><i class="fa-solid fa-xmark"></i></button>
+    <div id="formView">
+      <h3 id="modalTitle">Запись на приём</h3>
+      <p class="muted">Перезвоним в течение 15 минут и подтвердим время.</p>
+      <form id="form" novalidate>
+        <label class="field"><input type="text" id="name" placeholder=" " autocomplete="name"><span>Ваше имя</span><em class="err"></em></label>
+        <label class="field"><input type="tel" id="phone" placeholder=" " autocomplete="tel" inputmode="tel"><span>Телефон</span><em class="err"></em></label>
+        <label class="field"><input type="datetime-local" id="date" placeholder=" "><span class="fixed">Удобные дата и время</span><em class="err"></em></label>
+        <button class="btn btn-primary btn-block btn-lg" type="submit">Подтвердить запись</button>
+      </form>
+    </div>
+    <div id="okView" class="ok" hidden>
+      <svg viewBox="0 0 52 52" width="84" height="84"><circle class="ok-c" cx="26" cy="26" r="24" fill="none"/><path class="ok-p" fill="none" d="M14 27l8 8 16-17"/></svg>
+      <h3>Запись принята</h3>
+      <p class="muted" id="okText"></p>
+      <button class="btn btn-ghost" data-close>Закрыть</button>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
